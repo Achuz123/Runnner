@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Running Image with Name</title>
+    <style>
+        /* Animation for moving the image and text */
+        @keyframes run {
+            0% { left: 0; }
+            100% { left: 80%; }
+        }
+
+        /* Wrapper to group image and name */
+        .runner {
+            position: relative;
+            animation: run 5s linear infinite;
+            display: inline-block;
+        }
+
+        /* Style for the name */
+        .image-name {
+            text-align: center;
+            font-size: 18px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Running Image with Name Example</h2>
+
+    <!-- Running Image and Name -->
+    <div class="runner">
+        <img src="https://via.placeholder.com/150" alt="Running Image" width="150" height="100">
+        <div class="image-name">Running Image: Placeholder Image</div>
+    </div>
+
+</body>
+</html>
